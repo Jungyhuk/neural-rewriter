@@ -32,7 +32,7 @@ In the figure, ``Average expression length reduction`` is the decrease of the le
 
 #### Dataset
 
-We generate expressions in [Halide](https://github.com/Halide/Halide) using a [random pipeline generator](2https://github.com/halide/Halide/tree/new_autoschedule_with_new_simplifier/apps/random_pipeline). We obtain rewriting traces using the Halide rule-based rewriter [here](https://github.com/halide/Halide/blob/rl_simplifier_rules/test/correctness/rewriter.cpp).
+We generate expressions in [Halide](https://github.com/Halide/Halide) using a [random pipeline generator](https://github.com/halide/Halide/tree/new_autoschedule_with_new_simplifier/apps/random_pipeline). We obtain rewriting traces using the Halide rule-based rewriter [here](https://github.com/halide/Halide/blob/rl_simplifier_rules/test/correctness/rewriter.cpp).
 
 #### Usage
 
