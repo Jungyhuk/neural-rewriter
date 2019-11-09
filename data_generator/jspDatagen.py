@@ -11,14 +11,14 @@ import argparse
 import json
 
 argParser = argparse.ArgumentParser()
-argParser.add_argument('--res_file', type=str, default='../data/jsp/jsp_r20_short_job.json')
-argParser.add_argument('--res_train_file', type=str, default='../data/jsp/jsp_r20_train_short_job.json')
-argParser.add_argument('--res_val_file', type=str, default='../data/jsp/jsp_r20_val_short_job.json')
-argParser.add_argument('--res_test_file', type=str, default='../data/jsp/jsp_r20_test_short_job.json')
+argParser.add_argument('--res_file', type=str, default='../data/jsp/jsp_r10_job.json')
+argParser.add_argument('--res_train_file', type=str, default='../data/jsp/jsp_r10_train_job.json')
+argParser.add_argument('--res_val_file', type=str, default='../data/jsp/jsp_r10_val_job.json')
+argParser.add_argument('--res_test_file', type=str, default='../data/jsp/jsp_r10_test_job.json')
 
 argParser.add_argument('--num_samples', type=int, default=100000)
 argParser.add_argument('--seed', type=int, default=None)
-argParser.add_argument('--num_res', type=int, default=20)
+argParser.add_argument('--num_res', type=int, default=10)
 argParser.add_argument('--max_resource_size', type=int, default=10)
 argParser.add_argument('--time_horizon', type=int, default=50)
 argParser.add_argument('--job_horizon', type=int, default=10)
